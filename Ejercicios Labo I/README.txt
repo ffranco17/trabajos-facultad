@@ -1,0 +1,2 @@
+Estos son algunas de las actividades de la materia Algoritmos y Estructuras de Datos I. Al haber sido de mis primeras experiencias con el lenguaje C++ puede que algunos metodos no sean los adecuados. De igual manera, la mayoria de los archivos de código estan comentados explicando que hace cada ejercicio y si es que le encontre algun error. 
+El algoritmo fibonacci por otro lado, es un algoritmo que cree por mi cuenta intentando implementar la sucesion de fibonacci que habia visto ese año en la materia Algebra I.
