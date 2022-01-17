@@ -4,8 +4,9 @@
 
 using namespace std;
 
-/************* Ejercicio 1 *************/ //ya esta
+//la idea es dado un archivo de codigo inicial ir viendo que esta mal con el debugger y arreglarlo
 
+/************* Ejercicio 1 *************/ 
 // Decidir si un vector esta ordenado tanto ascendente como descendentemente
 bool estaOrdenadoAsc(vector<int> v){
   int i=0;
@@ -40,7 +41,7 @@ bool estaOrdenado(vector<int> v) {
 }
 
 
-/************* Ejercicio 2 *************/ //ya esta
+/************* Ejercicio 2 *************/ 
 
 // Decidir si un numero es primo.
 bool esPrimo(int numero){
@@ -60,7 +61,7 @@ bool esPrimo(int numero){
   }
 }
 
-/************* Ejercicio 3 *************/ //hecho
+/************* Ejercicio 3 *************/ 
 
 // Decidir si un elemento dado pertenece al vector.
 bool pertenece(int elemento, vector<int> v){
@@ -78,14 +79,14 @@ bool pertenece(int elemento, vector<int> v){
   }
 }
 
-/************* Ejercicio 4 *************/ //este no funciona con todos los casos pero tampoco se muy bien como se calcula el ds
+/************* Ejercicio 4 *************/ 
 
 // Encontrar el desvio estandar de un vector de floats.
 float promedio(vector<float> v){
   int longitud = v.size();
   int suma=0;
   for(int i=0; i<=longitud-1; i++) {
-      suma = suma + v[i]; // estaba escrito como suma += v[i] puede q este bien asi pero i dont trust
+      suma = suma + v[i]; // estaba escrito como suma += v[i] 
   }
   return suma/longitud;
 }
