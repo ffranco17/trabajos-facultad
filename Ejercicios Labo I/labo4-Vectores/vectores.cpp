@@ -188,7 +188,7 @@ int fElementoMedio(vector<int>v){
     cout<<"no hubo );";
 }
 
-//ej 11 esta bien solo que no se como hacer para que me guarde el archivo en otra carpeta
+//ej 11 Bien
 bool aparece(vector<int> v, int a){
     for (int i=0; i < v.size(); i++){
         if(a==v[i]){
@@ -229,7 +229,7 @@ void fCantApariciones(string nombreArchivo, string nombreArchivoOut) {
         apariciones[i]=numApariciones(v,numeros[i]);
     }
     ofstream fout;
-    fout.open(nombreArchivoOut); //tengo que preguntar como elijo en que folder guardarlo
+    fout.open(nombreArchivoOut); 
     for (int i=0; i < numeros.size(); i++){
         fout<<numeros[i]<<" "<<apariciones[i]<<endl;
     }
@@ -239,7 +239,7 @@ void fCantApariciones(string nombreArchivo, string nombreArchivoOut) {
 
 
 
-//ej 12 no termina el programa no se que mierda pasa
+//ej 12 no termina el programa 
 bool sonIguales(string a, string b){
     bool res=true;
     if(b.length()==a.length()){
@@ -274,7 +274,7 @@ int fCantidadAparicionesDePalabra(string nombreArchivo, string palabra) {
     return 0;
 
 }
-//ej 13 BIEN BIEEEEN
+//ej 13 bien
 void promedio(string nombreArchivoIn1, string nombreArchivoIn2, string nombreArchivoOut){
     //Dados dos archivos en los que cada uno contiene una secuencia de enteros de la misma longitud, guardar el promedio de
     //cada par de numeros que se encuentran en la misma \posicion" en el archivo de salida. Ejemplo: si tenemos dos secuencias
@@ -298,7 +298,7 @@ void promedio(string nombreArchivoIn1, string nombreArchivoIn2, string nombreArc
     fin2.close();
 }
 
-//ej 14 BIEN
+//ej 14 bien
 void ordenarSecuencias(string nombreArchivoIn1, string nombreArchivoIn2, string nombreArchivoOut){
     //Dados dos archivos en los que cada uno contiene una secuencia de enteros ordenada, ordenarlos y guardar el resultado
     //en el archivo de salida. Ejemplo: si tenemos dos secuencias <1, 4, 8, 19> y <3, 25, 31> el resultado debe ser [1,
@@ -329,7 +329,7 @@ void ordenarSecuencias(string nombreArchivoIn1, string nombreArchivoIn2, string 
 
 }
 
-//ej 15 hay algo mal, ya vere que es
+//ej 15 hay algo mal
 vector<int> interseccion(){
     //Funcion que pide al usuario que se ingrese por teclado dos nombres de archivos que contengan solo numeros enteros,
     //luego calcule la interseccion (los elementos comunes a ambos archivos), que debe mostrar por pantalla, ademas de
