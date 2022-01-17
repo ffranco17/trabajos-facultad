@@ -150,7 +150,7 @@ bool esTriangular(vector<vector<int> > m){
 	return false;
 }
 
-//este no lo hice porque no lo entiendo, nunca jugué al ajedrez xd
+//este no lo hice ya que no entiendo la idea porque nunca jugue al ajedrez
 bool hayAmenaza(vector<vector<int> > m){
 	//COMPLETAR
 	return true;
